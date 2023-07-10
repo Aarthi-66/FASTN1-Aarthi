@@ -1,40 +1,59 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+;;height: fill-container
+background.solid: gray
+align-content: center
+spacing.fixed.px: 20
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- card: CHARMINAR
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+hyd is the capital city of telangana and andhrapradesh.
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- card:SHAMSHABAD
 
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+Hyd is famous for biryani and irani chai and pearls and diamond.
+Chariminar is centre of arrarction of hyd city.
+-- card:
+-- end: ftd.column
 
 
--- ds.h3: 🎯 Used by?
+-- component card:
+caption title: Default Title
+body description: Default body
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.row:
+width.fixed.px: 800
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.image:
+src: https://th.bing.com/th/id/R.c287451d9ab2e1c3db63b04e82a91c92?rik=3XLWbMqLuapsMA&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2ff%2ff7%2fCharminar_india.jpg&ehk=KWcYCsCSu5I9Is70WgZULWn%2bXHNpNJTF5lPlBj5d%2bC8%3d&risl=1&pid=ImgRaw&r=0
+height: fill-container
+width.fixed.px: 300
+border-radius.px: 20
 
--- ds.h2: Learn fastn and become a pro?
+-- ftd.column:
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
 
--- end: ds.page
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
+
+
+;;hyd is the capital city of telangana and andhrapradesh.
+;;Hyd is famous for biryani and irani chai and pearls and diamond.
+;;Chariminar is centre of arrarction of hyd city.
+;;Hyd estd by muhammad quli qutbshah in 1591.hyd is very famous place in india.hyd occupies 650 square kilometres 
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: card
